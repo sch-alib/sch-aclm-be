@@ -1,0 +1,30 @@
+# Runtime configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.pfx
+*.p12
+*.csr
+
+# Data and generated certificate artifacts
+*.db
+*.sqlite
+*.sqlite3
+artifacts/
+*.log
+
+# Python, editor and environment files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.envrc
+.DS_Store
